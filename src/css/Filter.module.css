@@ -1,0 +1,25 @@
+.filter_container{
+    margin-top: 12px;
+    text-align: center;
+}
+.filter_text{
+    font-size: 18px;
+    color: #757575;
+}
+
+.filter_input {
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 2px 4px;
+    width: 210px;
+    color: #757575;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    transition: border-color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+    outline: none;
+}
+
+.filter_input:focus {
+    border: 1px solid #2196F3;
+    color: #000;
+}
